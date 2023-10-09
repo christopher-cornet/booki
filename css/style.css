@@ -57,6 +57,57 @@ a {
     padding-left: 50px;
 }
 
+.find-lodging h2, .find-lodging p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.find-lodging {
+    margin-top: 50px;
+}
+
+.find-lodging p {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+form i {
+    padding: 20px;
+    background-color: var(--main-bg-color);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.searchbar {
+    padding: 8px;
+    border: 1px solid #F2F2F2;
+    display: inline;
+    width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search-btn {
+    padding: 15px;
+    background-color: var(--main-color);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: var(--main-bg-color);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fa-location-dot {
+    color: #000;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
