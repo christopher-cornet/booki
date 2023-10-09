@@ -58,12 +58,12 @@ a {
     padding-left: 50px;
 }
 
-.find-lodging h2 {
-    margin-top: 0;
-}
-
 .find-lodging {
     margin-top: 50px;
+}
+
+.find-lodging h2 {
+    margin-top: 0;
 }
 
 .city-center {
@@ -95,7 +95,6 @@ form i {
 }
 
 .search-btn {
-    /* padding: 20px; */
     padding-left: 20px;
     padding-right: 20px;
     background-color: var(--main-color);
@@ -139,12 +138,6 @@ form i {
     padding-right: 5px;
 }
 
-.info {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: inline;
-}
-
 .lodging-number {
     margin-bottom: 30px;
 }
@@ -158,6 +151,12 @@ form i {
     align-items: center;
     justify-content: center;
     margin-right: 5px;
+}
+
+.info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline;
 }
 
 .section-title {
