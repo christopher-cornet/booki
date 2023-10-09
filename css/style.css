@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
@@ -25,9 +26,35 @@ body {
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+header img {
+    width: 80px;
+    height: 25px;
+    margin-top: 15px;
+}
+
+nav {
+    margin-top: 3px;
+}
+
 a {
     color: inherit;
     text-decoration: none;
+}
+
+.hebergement-nav {
+    border-top: 3px solid var(--main-color);
+    padding-top: 10px;
+    color: var(--main-color);
+}
+
+.activites-nav {
+    padding-left: 50px;
 }
 
 .section-title {
