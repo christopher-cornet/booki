@@ -173,6 +173,7 @@ form i {
 
 .card img {
     object-fit: cover;
+    width: 200px;
 }
 
 .card-title {
@@ -203,6 +204,37 @@ form i {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergements h3 {
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 33px;
+}
+
+.card-grid img {
+    width: 100%;
+    height: 110px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-grid h3, .card-grid p, .card-grid .card-rating {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.card-grid h3 {
+    margin-bottom: 10px;
 }
 
 /****** Populaires ***********/
