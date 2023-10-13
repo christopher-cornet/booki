@@ -323,6 +323,19 @@ form i {
     margin-bottom: 5px;
 }
 
+footer {
+    background-color: var(--main-bg-color);
+    margin-top: 60px;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 75%;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
