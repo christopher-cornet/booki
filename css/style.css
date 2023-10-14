@@ -279,6 +279,10 @@ form i {
     border-top-left-radius: 25px;
 }
 
+.activites-list .card {
+    height: 95%;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -377,6 +381,22 @@ footer section {
 
     .filters h3 {
         display: block;
+    }
+
+    .activites-list .card {
+        height: 95%;
+    }
+
+    .activites-list h3 {
+        padding: 5px 10px 0px 15px;
+    }
+
+    .low-activites {
+        padding-top: 10px;
+    }
+
+    .activites-list img {
+        height: 225px;
     }
 }
 
