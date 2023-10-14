@@ -269,6 +269,7 @@ form i {
 .activites-list h3 {
     padding-left: 20px;
     margin-bottom: 0px;
+    font-size: 16px;
 }
 
 .activites-list img {
@@ -372,6 +373,10 @@ footer section {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .filters h3 {
+        display: block;
     }
 }
 
