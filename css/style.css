@@ -65,6 +65,7 @@ a {
 
 .find-lodging-title {
     margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .city-center {
@@ -88,7 +89,7 @@ a {
     background-color: var(--main-bg-color);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    color: #000;
+    color: black;
 }
 
 .searchbar, .search-btn {
@@ -140,6 +141,10 @@ a {
 
 .filters-icon {
     padding-right: 5px;
+}
+
+.filters-grid {
+    display: inline;
 }
 
 .lodging-number {
@@ -197,8 +202,11 @@ a {
     justify-content: space-between;
 }
 
-.hebergements-and-populaires section {
+.hebergements, .populaires {
     background-color: var(--main-bg-color);
+}
+
+.hebergements-and-populaires section {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
@@ -209,7 +217,7 @@ a {
     width: 65%;
 }
 
-.hebergements h3 {
+.card-title {
     margin-bottom: 0;
     margin-top: 40px;
 }
@@ -375,7 +383,7 @@ footer {
         font-size: 13px;
     }
 
-    .filters h3 {
+    .filters-title {
         display: block;
     }
 
@@ -456,8 +464,93 @@ footer {
         display: none;
     }
 
+    .searchbar {
+        width: 60%;
+        text-align: start;
+        padding-left: 30px;
+    }
+
     .fa-magnifying-glass {
         display: block;
         color: white;
+    }
+
+    .filters {
+        margin-bottom: 15px;
+    }
+
+    .filters-title {
+        margin-left: 20px;
+    }
+
+    .filters-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 10px;
+        row-gap: 20px;
+        margin: 0px 25px;
+    }
+
+    .lodging-number {
+        margin: 0px 15px 10px 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-and-populaires section {
+        border-radius: 0px;
+        padding: 30px;
+    }
+
+    .populaires {
+        margin-top: 0px;
+    }
+
+    .populaires-cards, .card-grid, .activites-list {
+        display: block;
+    }
+
+    .populaires-cards .card {
+        margin-top: 15px;
+    }
+
+    .populaires-cards .card-title {
+        font-size: 18px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 16px;
+    }
+
+    .hebergements {
+        background-color: white;
+    }
+
+    .card-grid .card, .activites-list .card {
+        margin-top: 20px;
+    }
+
+    .show-more {
+        margin-top: 20px;
+    }
+
+    .low-activites {
+        padding-top: 0px;
+    }
+
+    .activites-locations {
+        padding: 0px;
+        padding-left: 20px;
+    }
+
+    .about-us {
+        flex-direction: column;
     }
 }
