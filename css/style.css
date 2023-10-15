@@ -79,6 +79,10 @@ a {
     display: flex;
 }
 
+.fa-magnifying-glass {
+    display: none;
+}
+
 .fa-location-dot {
     padding: 20px;
     background-color: var(--main-bg-color);
@@ -432,5 +436,28 @@ footer {
         border-top: none;
         border-bottom: 2px solid var(--main-color);
         color: var(--main-color);
+    }
+
+    .find-lodging-title, .city-center {
+        margin-left: 25px;
+    }
+
+    .search-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .search-btn {
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px var(--secondary-bg-color);
+    }
+
+    .search {
+        display: none;
+    }
+
+    .fa-magnifying-glass {
+        display: block;
+        color: white;
     }
 }
