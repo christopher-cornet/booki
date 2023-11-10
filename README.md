@@ -1,4 +1,3 @@
-
 <h1 align="center">
   <br>
   <a href="#"><img src="https://raw.githubusercontent.com/christopher-cornet/booki/master/images/logo/Booki.png" alt="Booki" width="200"></a>
